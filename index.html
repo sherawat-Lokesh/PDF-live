@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>LOKESH RESUME</title>
+     <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+     <iframe id="pdfIframe" style="display:none;"></iframe>
+     <SCript >
+               window.onload = (event) => {
+               const pdfPath = './resume.pdf'
+               document.getElementById('pdfIframe').src = pdfPath;
+               document.getElementById('pdfIframe').style.display = 'block';
+          };
+           </SCript>
+</body>
+</html>
